@@ -57,8 +57,8 @@ export default function ScrollReveal({
       animate: { opacity: 1, transform: "translateY(0)" },
     },
     "fade-in": {
-      initial: { opacity: 0 },
-      animate: { opacity: 1 },
+      initial: { opacity: 0, transform: "none" },
+      animate: { opacity: 1, transform: "none" },
     },
     "slide-left": {
       initial: { opacity: 0, transform: "translateX(60px)" },
